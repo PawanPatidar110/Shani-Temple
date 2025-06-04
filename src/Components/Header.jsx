@@ -24,7 +24,7 @@
 
 
 import React from "react";
-import Shanidev from "../assets/shanidev3.jpg";
+import Shanidev from "../assets/shanidev3.webp";
 
 export default function Header() {
     return (

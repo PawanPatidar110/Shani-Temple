@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from "react";
-import ShaniDev from "../assets/Shanidev.jpg";
-import Shanidev2 from "../assets/shanidev2.jpg";
-import Shanidev3 from "../assets/shanidev3.jpg";
-import Shanidevgate from "../assets/shanidevgate.jpg"
-import Shanidevgate2 from "../assets/shaniget.jpg"
+import ShaniDev from "../assets/Shanidev.webp";
+import Shanidev2 from "../assets/shanidev2.webp";
+import Shanidev3 from "../assets/shanidev3.webp";
+import Shanidevgate from "../assets/shanidevgate.webp"
+import Shanidevgate2 from "../assets/shaniget.webp"
 
 const originalEvents = [
     { title: "Om Sham Shanaishcharaya Namah.", image: ShaniDev },

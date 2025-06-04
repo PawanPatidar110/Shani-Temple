@@ -81,7 +81,7 @@
 import { useState } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Link, NavLink } from 'react-router-dom';
-import Logo from '../assets/logo.jpg';
+import Logo from '../assets/logo.webp';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -98,7 +98,7 @@ export default function Navbar() {
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
                     <img src={Logo} alt="Logo" className="h-12 w-auto rounded-lg" />
-                    <span className="text-xl font-semibold">Shree ShaniDev</span>
+                    <span className="text-xl font-semibold">Shree Sha</span>
                 </div>
 
                 {/* Desktop Menu */}
