@@ -98,7 +98,7 @@ export default function Navbar() {
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
                     <img src={Logo} alt="Logo" className="h-12 w-auto rounded-lg" />
-                    <span className="text-xl font-semibold">Shree Sha</span>
+                    <span className="text-xl font-semibold">Shree ShaniDev</span>
                 </div>
 
                 {/* Desktop Menu */}
