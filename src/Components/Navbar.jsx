@@ -90,6 +90,8 @@ export default function Navbar() {
     const navItems = [
         { label: 'Home', to: '/' },
         { label: 'About Temple', to: '/about' },
+        { label: 'Seva', to: '/seva' },
+        { label: 'Calender', to: '/calender' },
     ];
 
     return (
