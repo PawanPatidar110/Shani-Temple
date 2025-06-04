@@ -93,12 +93,12 @@ export default function Navbar() {
     ];
 
     return (
-        <header className="fixed top-0 w-full z-50 bg-black text-white shadow-md">
+        <header className="fixed top-0 w-full z-50 bg-black  text-white shadow-md">
             <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
                     <img src={Logo} alt="Logo" className="h-12 w-auto rounded-lg" />
-                    <span className="text-lg font-semibold">Shree</span>
+                    <span className="text-xl font-semibold">Shree ShaniDev</span>
                 </div>
 
                 {/* Desktop Menu */}
@@ -108,7 +108,7 @@ export default function Navbar() {
                             key={label}
                             to={to}
                             className={({ isActive }) =>
-                                `flex items-center gap-1 transition ${isActive ? 'text-purple-500' : 'hover:text-purple-400'
+                                `flex items-center gap-1 text-lg transition ${isActive ? 'text-purple-500' : 'hover:text-purple-400'
                                 }`
                             }
                         >
@@ -136,12 +136,12 @@ export default function Navbar() {
                             {label}
                         </Link>
                     ))}
-                    <button className="w-full bg-purple-600 hover:bg-purple-700 transition text-white py-2 rounded-full mt-2">
+                    {/* <button className="w-full bg-purple-600 hover:bg-purple-700 transition text-white py-2 rounded-full mt-2">
                         💰 Donate
                     </button>
                     <button className="w-full bg-purple-600 hover:bg-purple-700 transition text-white py-2 rounded-full flex items-center justify-center gap-1 mt-2">
                         Select Language <ChevronDown size={14} />
-                    </button>
+                    </button> */}
                 </div>
             )}
         </header>
