@@ -122,11 +122,11 @@
 // export default About;
 
 import React, { useState } from 'react';
-import Pujari from '../assets/management/pujari.jpg'
+import Pujari from '../assets/management/pujari.jpg';
 
 // Sidebar Component
 const Sidebar = ({ items, title, onItemClick, activeItem }) => (
-    <aside className="w-full h-fit md:w-64 bg-white p-6 shadow-md rounded-lg mb-6 md:mb-0 md:mr-8">
+    <aside className="w-full h-fit md:w-80 bg-white text-black p-10 shadow-md rounded-lg mb-6 md:mb-0 md:mr-8">
         <h2 className="text-purple-700 font-semibold text-xl mb-4 border-b pb-2">{title}</h2>
         <ul className="space-y-4">
             {items.map((item, idx) => (
@@ -147,10 +147,10 @@ const Sidebar = ({ items, title, onItemClick, activeItem }) => (
 
 // Content Section Component
 const ContentSection = ({ heading, paragraphs }) => (
-    <section className="mb-12">
-        <h2 className="text-3xl font-bold text-purple-800 mb-4 border-l-4 border-purple-500 pl-3">{heading}</h2>
+    <section className="flex  flex-col mb-12 gap-y-10">
+        <h2 className="text-5xl font-bold text-yellow-300 mb-4 border-l-4 border-yellow-500 pl-3">{heading}</h2>
         {paragraphs.map((text, idx) => (
-            <p key={idx} className="text-gray-800 text-lg mb-4 leading-relaxed">
+            <p key={idx} className="text-gray-200 text-xl mb-4 text-wrap w-[70%] leading-relaxed">
                 {text}
             </p>
         ))}
@@ -159,11 +159,11 @@ const ContentSection = ({ heading, paragraphs }) => (
 
 // Team Card Component
 const TeamCard = ({ name, role, img }) => (
-    <div className="bg-white rounded-xl shadow-md p-4 text-center hover:shadow-xl transition w-64">
+    <div className="bg-purple-200 text-black rounded-xl shadow-md p-4 text-center hover:shadow-xl transition w-96">
         <img
             src={img}
             alt={name}
-            className="w-32 h-32 object-cover rounded-full mx-auto mb-4"
+            className="w-80 h-80 object-cover rounded-full mx-auto mb-4"
         />
         <h3 className="text-lg font-bold text-purple-700">{name}</h3>
         <p className="text-sm text-gray-600">{role}</p>
@@ -218,14 +218,6 @@ const About = () => {
                 `• Shani Dev: Dispelling the Myths About the God of Justice – cottage9.com`,
             ],
         },
-        {
-            heading: 'Visit Us',
-            paragraphs: [
-                `📍 Location: 22, Shani Gali, Juni Indore, Indore, Madhya Pradesh 452007`,
-                `⏰ Timings: Open daily from 5:30 AM to 10:00 PM`,
-                `We welcome you to experience the divine presence of Lord Shani and partake in the temple's rich traditions.`,
-            ],
-        },
     ];
 
     const teamMembers = [
@@ -247,8 +239,8 @@ const About = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-purple-50 to-white py-10 px-6 md:px-30">
-            <div className="flex flex-col gap-10 md:flex-row md:mx-10 ">
+        <div className="min-h-fit bg-gradient-to-t from-black via-gray-900 to-purple-900 pt-30 pb-90 px-6 md:px-20 text-white">
+            <div className="flex flex-col gap-10 md:flex-row md:mx-10">
                 <Sidebar
                     title="About Temple"
                     items={sidebarItems}
@@ -259,7 +251,7 @@ const About = () => {
                 <main className="flex-1 md:mt-2">
                     {selectItem === "Management Team" ? (
                         <div>
-                            <h2 className="text-3xl font-bold text-purple-800 mb-6 border-l-4 border-purple-500 pl-3">
+                            <h2 className="text-3xl font-bold text-yellow-300 mb-6 border-l-4 border-yellow-500 pl-3">
                                 Meet the Management
                             </h2>
                             <div className="flex flex-wrap gap-8">
@@ -286,3 +278,4 @@ const About = () => {
 };
 
 export default About;
+

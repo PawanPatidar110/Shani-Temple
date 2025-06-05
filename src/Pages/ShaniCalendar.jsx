@@ -27,7 +27,7 @@ const today = new Date().toISOString().split('T')[0];
 
 const ShaniCalendar = () => {
     return (
-        <div className="min-h-fit bg-gradient-to-t from-black via-gray-900 to-purple-900 px-6 py-20 text-white">
+        <div className="min-h-fit bg-gradient-to-t from-black via-gray-900 to-purple-900 px-6 pb-90 py-20 text-white">
             <div className="max-w-3xl mx-auto bg-black bg-opacity-70 p-6 rounded-2xl shadow-lg">
                 <h1 className="text-3xl text-purple-400 font-bold mb-6 text-center">🪐 ShaniDev Calendar – 2025</h1>
 

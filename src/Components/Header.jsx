@@ -26,7 +26,7 @@ import Shanidev from "../assets/logo.webp";
 
 export default function Header() {
     return (
-        <div className="bg-gradient-to-b from-black via-gray-900 to-purple-900 min-h-fit flex items-center justify-around px-8 py-50 text-white">
+        <div className="bg-gradient-to-b from-black via-gray-900 to-purple-900 min-h-fit flex items-center justify-around px-8 py-40 text-white">
             {/* Image with fade-in + scale-up effect */}
             <div className="flex-shrink-0 transition-all duration-1000 ease-in-out transform hover:scale-105 opacity-0 animate-fade-in">
                 <img

@@ -54,8 +54,8 @@
 
 import React from 'react';
 import Temple from '../assets/icon/temple.png';
-import Deepak from '../assets/icon/deepak.avif';
-import Tithi from '../assets/icon/tithi.jpg';
+import Deepak from '../assets/icon/deepak.png';
+import Tithi from '../assets/icon/tithi.png';
 
 const cardData = [
     {
@@ -82,22 +82,22 @@ const MandirTiming = () => {
                 <h1 className="text-4xl md:text-5xl font-bold mb-12 text-purple-300 drop-shadow">
                     Mandir Timings
                 </h1>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div className="grid grid-cols-1 sm:grid-cols-2 p-4 lg:grid-cols-3 gap-10">
                     {cardData.map((item, index) => (
                         <div
                             key={index}
-                            className="bg-[#2e2a3d] bg-opacity-90 rounded-2xl shadow-xl backdrop-blur-lg overflow-hidden hover:scale-105 transform transition duration-300"
+                            className="bg-purple-200 bg-opacity-90 rounded-2xl shadow-xl backdrop-blur-lg overflow-hidden hover:scale-105 transform transition duration-300"
                         >
                             <img
                                 src={item.img}
                                 alt={item.title}
-                                className="w-full h-56 object-cover"
+                                className="w-full h-86 object-cover"
                             />
                             <div className="p-6 text-left">
-                                <h2 className="text-2xl font-semibold text-purple-200 mb-2">
+                                <h2 className="text-2xl font-semibold text-black mb-2">
                                     {item.title}
                                 </h2>
-                                <p className="text-gray-300">{item.desc}</p>
+                                <p className="text-black">{item.desc}</p>
                             </div>
                         </div>
                     ))}
