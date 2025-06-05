@@ -74,7 +74,7 @@ export default function Glimpses() {
     }, []);
 
     return (
-        <div className="w-full py-30 bg-gradient-to-tr from-[#fefcfe] via-[#5c49c7] to-[#2a1b68]">
+        <div className="w-full py-30 bg-gradient-to-t from-black via-gray-900 to-purple-900">
             <div className="max-w-7xl mx-auto px-4 text-center">
                 <h2 className="text-3xl md:text-4xl p-1 font-bold text-purple-200 mb-4">
                     A few glimpses from the ground
