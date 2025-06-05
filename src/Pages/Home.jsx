@@ -3,6 +3,7 @@ import Header from '../Components/Header'
 import Glimpses from '../Components/Glimpses'
 import MandirTiming from '../Components/MandirTiming'
 import ShaniCalendar from './ShaniCalendar'
+import FallingLeaves from '../Components/FallingLeaves'
 
 const Home = () => {
     return (
@@ -13,7 +14,6 @@ const Home = () => {
             <div className='h-fit'>
                 <ShaniCalendar />
             </div>
-
 
         </>
     )
