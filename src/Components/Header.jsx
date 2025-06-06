@@ -1,6 +1,5 @@
 import React from "react";
-import Shanidev from "../assets/Shanidev2.webp";
-import FallingLeaves from "./FallingLeaves";
+import Shanidev from "../assets/shanidev2.webp"; // Image of Shani Dev
 import HeaderBg from "../assets/headerBg.mp4";
 
 export default function Header() {
