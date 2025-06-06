@@ -30,7 +30,7 @@ export default function Header() {
                 <div>
                     <img
                         src={Shanidev}
-                        className="w-[70%] md:w-[300px] lg:w-[350px] rounded-t-full rounded-b-xl border-amber-300 border-4"
+                        className="w-[70%] md:w-[300px] lg:w-[500px] rounded-t-full rounded-b-7xl border-amber-300 border-4"
                     />
                 </div>
             </div>

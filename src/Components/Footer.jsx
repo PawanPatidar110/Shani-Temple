@@ -145,9 +145,9 @@ const Footer = () => {
             <div className="border-t border-[#6c4c3a] mt-10 pt-6 text-center text-xs text-gray-300">
                 <div className="flex flex-wrap justify-center gap-4 text-orange-300 text-xl font-medium">
 
-                    <a href="#">Annakshetra Dharma Special</a>
-                    <a href="#">Terms & Conditions</a>
-                    <a href="#">Cancellation Policy</a>
+
+
+                    <a href="#">Privacy Policy</a>
 
                 </div>
                 <p className="mt-3 text-lg">

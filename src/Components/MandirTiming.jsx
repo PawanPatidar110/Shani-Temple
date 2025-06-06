@@ -59,17 +59,17 @@ import Tithi from '../assets/icon/tithi.png';
 
 const cardData = [
     {
-        title: "Morning Darshan",
-        desc: "Temple opens for morning darshan from 6:00 AM to 11:30 AM.",
+        title: "Mandir Darshan",
+        desc: "Temple opens for  darshan from 6:00 AM to 8:30 PM.",
         img: Temple
     },
     {
-        title: "Evening Darshan",
+        title: "Arti Timing",
         desc: "Evening darshan starts at 5:00 PM and ends at 8:00 PM.",
         img: Deepak
     },
     {
-        title: "Aarti Timings",
+        title: "Tithi",
         desc: "Aarti is performed daily at 6:30 AM and 7:00 PM.",
         img: Tithi
     }
@@ -91,7 +91,7 @@ const MandirTiming = () => {
                             <img
                                 src={item.img}
                                 alt={item.title}
-                                className="w-full h-86 object-cover"
+                                className="w-full h-90  object-center object-cover"
                             />
                             <div className="p-6 text-left">
                                 <h2 className="text-2xl font-semibold text-black mb-2">
