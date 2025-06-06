@@ -79,7 +79,7 @@ const MandirTiming = () => {
     return (
         <div className="bg-gradient-to-b from-black via-gray-900 to-purple-900 px-6 text-white min-h-fit py-30">
             <div className="max-w-7xl mx-auto text-center">
-                <h1 className="text-4xl md:text-5xl font-bold mb-12 text-purple-300 drop-shadow">
+                <h1 className="text-4xl p-1.5 md:text-5xl font-bold mb-12 text-purple-300 drop-shadow">
                     Mandir Timings
                 </h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 p-4 lg:grid-cols-3 gap-10">
