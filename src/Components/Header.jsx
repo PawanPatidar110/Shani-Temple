@@ -1,5 +1,5 @@
 import React from "react";
-import Shanidev from "../assets/shanidev.webp"; // Image of Shani Dev
+import Shanidev from "../assets/logo.png"; // Image of Shani Dev
 import HeaderBg from "../assets/HeaderBg.webm";
 
 export default function Header() {
@@ -27,7 +27,7 @@ export default function Header() {
                     </span>
                 </div>
 
-                <div className='shadow-lg shadow-organge-500'>
+                <div className=' '>
                     <img
                         src={Shanidev}
                         className="w-[70%] md:w-[300px] lg:w-[400px] rounded-t-full rounded-b-7xl  "
