@@ -156,9 +156,10 @@ const UpdateManagement = () => {
         if (form.profileImage) {
             formData.append("profileImage", form.profileImage);
         }
+        console.log("Form Data:", formData);
 
         try {
-            Util.Put(API_ROUTES.MANAGEMENT.UPDATE + id, formData, (res, status) => {
+            Util.Put(API_ROUTES.MANAGEMENT.UPDATE(id), formData, (res, status) => {
                 console.log("Update Response:", res);
 
                 if (status) {
